@@ -12,6 +12,12 @@ hello("Hello", title="Mr.", first="John", last="Doe")  # positional arguments
 
 print("1","2", "3", sep=":", end="\n\n")  # sep is a keyword argument
 
+for x in range(1,11):
+    print(x, end="") # end="" is also a keyword argument
+
+
+
+
 
 
 
