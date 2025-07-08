@@ -1,0 +1,13 @@
+# conditional expression - A one-line shortcut for if-else statement (ternary operator)
+#                        - Print or assign one of two values based on a condition
+#                        - x if condition else y
+
+# Examples
+
+choice = int(input("Enter a number: "))
+outcome = "your number is over 10" if choice > 10 else "your number is under 10"
+print(outcome)
+
+choice2 = input("enter your name")
+length = len(choice2)
+print(f"your name has {length} letters" if length <= 10 else "your name has too many letters. enter your nick name instead")
