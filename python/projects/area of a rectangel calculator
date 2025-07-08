@@ -1,0 +1,7 @@
+# Rectangle Area calc
+length = print("Enter the length of rectangle:")
+length = float(input())
+width = print("Enter the width of rectangle:")
+width = float(input())
+area = length * width
+print(f"Area of rectangle is:{area}")
